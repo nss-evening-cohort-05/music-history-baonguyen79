@@ -1,0 +1,94 @@
+body {
+	width:  60em;
+	height: 55em;
+}
+
+#taskBar {
+	height: 5%;
+	width: auto;
+	background-color: LightCoral ;
+	border: 1px solid black;
+	margin-top: 15px;
+}
+
+#taskBar a {
+	margin: 20px;
+	line-height: 40px;
+}
+
+#filter {
+	float: left;
+	margin-top: 10px;
+	padding-top: 15px;
+	width: 30%;
+	height: 65%;
+	background-color: DodgerBlue;
+	border: 1px solid black;
+	/*font-size: 1.5em;*/
+}
+
+#filter h5 {
+	margin-bottom: 5px;
+	font-size: 1.2em;
+}
+
+#filter button {
+	margin: 40px 30%;
+	width: 100px;
+	height: 30px; 
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.songLength audio {
+	width: 80%;
+}
+
+.songLength, .artist , .album, .genre {
+	margin: 5px 10px;
+}
+
+.artist select , .album select, option{
+	width: 80%;
+	height: 30px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.genre {
+	width: 300px;
+	padding-left:  2px:;
+}
+
+.genre .checkbox li{
+    margin:0;
+    float:left;
+    width:50%;
+	list-style: none;
+}
+
+.checkbox {
+	padding-left: 1px;
+	margin-top: 15px;
+}
+
+#songList {
+	border: 1px solid black;
+	float: right;
+	margin-top: 10px;
+	padding-top: 15px;
+	width: 68%;
+	height: 65%;
+	background-color: Khaki ;
+	border: 1px solid black;
+	font-size: 1.5em;
+}
+
+#songList li {
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+#songList span {
+	font-size: 15px
+}

@@ -1,0 +1,74 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Music History</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <section id="taskBar">
+  	  <a href="#">View music</a> |
+  	  <a href="#">Add Music</a> |
+  	  <a href="#">Profile</a>
+
+  </section>
+
+  <section  id="filter">
+  
+  	<div class="songLength">
+        <h5>Song length</h5>
+        <!-- <label for="songLength">Song length</label><br> -->
+	      <audio id="songLength" controls>
+	      <source src="elvis.mp3" type='audio/mpeg; codecs="mp3"'>
+	      </audio>
+    </div>
+  	
+  	
+    <div class="artist">
+    <h5>Artist</h5>
+        <select>   
+      		 <option value="Artist1">Artist1</option>
+     		   <option value="Artist2">Artist2</option>
+      		 <option value="Artist3">Artist3</option>
+     	  	 <option value="Artist4">Artist4</option>
+    	  </select>
+    </div>
+
+    <div class="album">
+    <h5>Album</h5>
+        <select>   
+           <option value="Album1">Album1</option>
+           <option value="Album2">Album2</option>
+           <option value="Album3">Album3</option>
+           <option value="Album4">Album4</option>
+        </select>
+    </div>
+
+  	<div class="genre">
+    <h5>Genre</h5>
+    <ul class="checkbox">
+  		   <li><input type="checkbox" name="Rock" value="rock" checked>Rock</li>
+    		 <li><input type="checkbox" name="Classical" value="classical">Classical</li>
+    		 <li><input type="checkbox" name="Pop" value="pop">Pop</li>
+    		 <li><input type="checkbox" name="Jazz" value="Jazz">Jazz</li>
+    		 <li><input type="checkbox" name="Blues" value="Blues">Blues</li>
+    		 <li><input type="checkbox" name="HipHop" value="HipHop">HipHop</li>
+  	</ul>
+    </div>
+
+	<button type="button">Filter</button>
+
+  </section>
+
+  <section id="songList">
+  		<ul>
+  			 <li><a href="#">Song Name</a><br><span>Artist Name | Album Name | Genre</span></li>
+         <li><a href="#">Song Name</a><br><span>Artist Name | Album Name | Genre</span></li>
+         <li><a href="#">Song Name</a><br><span>Artist Name | Album Name | Genre</span></li>
+  		</ul>
+  </section>
+
+</body>
+</html>
