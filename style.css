@@ -1,6 +1,12 @@
+html {
+	margin: auto;
+	width: 75%;
+}
+
 body {
 	width:  60em;
 	height: 55em;
+
 }
 
 #taskBar {
