@@ -92,3 +92,8 @@ body {
 #songList span {
 	font-size: 15px
 }
+
+
+#songList a {
+	text-decoration: none;
+}
