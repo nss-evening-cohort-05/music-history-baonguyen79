@@ -22,6 +22,21 @@ body {
 	line-height: 40px;
 }
 
+ #addSong {
+ 	padding-top: 30px;
+ }
+
+ #addSong button {
+ 	margin-top: 30px;
+ }
+
+ #addSong label {
+ 	display: inline-block;
+	width: 100px;
+	text-align: right;
+	padding: 5px;
+}
+
 #filter {
 	float: left;
 	margin-top: 10px;
@@ -30,7 +45,6 @@ body {
 	height: 65%;
 	background-color: DodgerBlue;
 	border: 1px solid black;
-	/*font-size: 1.5em;*/
 }
 
 #filter h5 {
@@ -88,6 +102,7 @@ body {
 	background-color: Khaki ;
 	border: 1px solid black;
 	font-size: 1.5em;
+	overflow: auto;
 }
 
 #songList li {
